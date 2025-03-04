@@ -10,4 +10,12 @@ including how to run it.
 
 There are [resources](https://www.makeareadme.com) available to help you write a good README file.
 
+Start API:
+```console
+poetry run flask --app todo run -p 6400
+```
 
+Run tests:
+```console
+poetry run python3 -m unittest discover -s tests
+```
